@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		B7C467E321957A090020C4AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C467E221957A090020C4AC /* AppDelegate.swift */; };
-		B7C467E521957A090020C4AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C467E421957A090020C4AC /* ViewController.swift */; };
 		B7C467E821957A090020C4AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7C467E621957A090020C4AC /* Main.storyboard */; };
 		B7C467EA21957A0B0020C4AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7C467E921957A0B0020C4AC /* Assets.xcassets */; };
 		B7C467ED21957A0B0020C4AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7C467EB21957A0B0020C4AC /* LaunchScreen.storyboard */; };
+		B7C467F7219580010020C4AC /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C467F6219580010020C4AC /* WeatherViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B7C467DF21957A090020C4AC /* weather-finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "weather-finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7C467E221957A090020C4AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B7C467E421957A090020C4AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B7C467E721957A090020C4AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B7C467E921957A0B0020C4AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7C467EC21957A0B0020C4AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B7C467EE21957A0B0020C4AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7C467F6219580010020C4AC /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				B7C467E221957A090020C4AC /* AppDelegate.swift */,
-				B7C467E421957A090020C4AC /* ViewController.swift */,
+				B7C467F6219580010020C4AC /* WeatherViewController.swift */,
 				B7C467E621957A090020C4AC /* Main.storyboard */,
 				B7C467E921957A0B0020C4AC /* Assets.xcassets */,
 				B7C467EB21957A0B0020C4AC /* LaunchScreen.storyboard */,
@@ -135,7 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7C467E521957A090020C4AC /* ViewController.swift in Sources */,
+				B7C467F7219580010020C4AC /* WeatherViewController.swift in Sources */,
 				B7C467E321957A090020C4AC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +285,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D29WSDGH2X;
 				INFOPLIST_FILE = "weather-finder/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +304,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D29WSDGH2X;
 				INFOPLIST_FILE = "weather-finder/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
